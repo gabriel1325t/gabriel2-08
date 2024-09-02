@@ -1,0 +1,66 @@
+/*Estilos aplicados ao websit Prototipando...*/
+
+/*Seletor Universal - seleciona todos os elementos da página e aplica estilos comuns padronizados*/
+
+*{
+
+    margin: 0; /*remove a margem padrão de todos os elementos */
+    padding: 0; /*remove o padding de todos os elementos*/
+    box-sizing: border-box; /*Inclui bordas e preechimentos no cálculo da largura e da altura dos elementos*/
+}/*Fechamento de seletot universal*/
+
+body{
+    font-family: Arial, sans-serif;/*Define a fonte da p´gina como Arial, com uma alternativa de sans-serif*/
+    background-color:rgb(79,183,218);/*Define cor de fundo do body / corpo do html*/
+    color:rgb(240, 240, 240); /*define a cor do texto a um tom suave de branco*/
+}/*Fechamento do body
+
+/*Estilo do cabeçalho*/
+header{
+    background-color: #60D6E7 ;
+    padding: 40px;
+    text-align:center; /*Alinha texto do cabeçalho ao centro*/
+}/*Fechamento de header*/
+
+header button{
+    right:20px; /* Alinha o botão á direita, com 20px de distancia da borda direita da pagina*/
+    top: 20px; /*Alinha o botão ao topo, com 20 px de ditancia da borda superior*/
+    position: absolute;/*Posiciona o botão de forma absoluta com relação ao cabeçalho*/
+    background-color:#D8F9F9;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px; /*Define o espaço inteiro do botão em 10 px (vertical) e 20pc(horizontal)*/
+    border-radius: 5px; /*Arredonda os cantos do botoes*/
+    border: none; /*Remove a borda padrão do botão*/
+    cursor: pointer; /* Define o cursor como um ponteiro ao passar sobre o botão*/
+}/*fechamento do header button*/
+
+header h3{
+    /*Remove a mergem e o padding padrão do h3 dentro do header*/
+     margin:0;
+     padding: 0;
+}/*Fechamento header h3*/
+
+main{
+     padding: 30px;
+     text-align:center;
+}/*Fechamento main*/
+
+
+main img{
+    max-width: 150px; /* Define a largura maxima da imagens dentro da main com 150px*/
+    
+}/*Fechamento main img*/
+
+section{
+    margin: 20px 0; /*Define a margem superior e inferior da seçoes como 20px e 0 as laterais*/
+}
+
+/*Estilo do rodapé / footer*/
+footer{
+     background-color: #60D6E7 ;
+     padding: 30px;
+     text-align:center; /*Alinha texto do rodapé ao centro*/
+     bottom: 0;/* Alinha o rodapé abaixo da página*/
+     position: absolute;/*Posiciona o rodapé de forma absoluta em relação ao body*/
+     width: 100%; /*define a largura do rodapé*/
+}
